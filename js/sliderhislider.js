@@ -629,8 +629,7 @@
   function Main(props) {
     const [open, setOpen] = h("");
     p(() => {
-      const classOfcartIcon = document.querySelector('[data-cart-svg-icon = "site-header__icon"]').getAttribute("data-cart-svg-icon");
-      let cartSvgButton = document.querySelector(`.${classOfcartIcon}`);
+      let cartSvgButton = document.querySelector("#cart-icon-bubble");
       console.log("cart-icon-sbg", cartSvgButton);
       const addToCartButton = document.querySelector(".product-form__submit");
       function openSlider(event) {
