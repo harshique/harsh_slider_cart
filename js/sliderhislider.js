@@ -629,6 +629,7 @@
   function Main(props) {
     const [open, setOpen] = h("");
     p(() => {
+      console.log("variablename",store_name)
       let cartSvgButton = document.querySelector("#cart-icon-bubble");
       console.log("cart-icon-sbg", cartSvgButton);
       const addToCartButton = document.querySelector(".product-form__submit");
