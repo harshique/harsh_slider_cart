@@ -550,6 +550,7 @@
     });
   }
   function CartItems() {
+    console.log("variablename",store_name)
     const [listItem, setListItem] = h([]);
     const [subtotalPrice, setSubtotalPrice] = h(10);
     async function GetDataAboutItem() {
